@@ -9,6 +9,7 @@ If you are:
 - at home with both PHP and CSS, who
 - dislikes Gutenberg and
 - does not want to have to adapt / cut out / edit another developer's code,
+
 this is for you.
 
 **Theme One** works as a theme, without any editing. (Obviously, it relies on browser defaults to be readable at all. It needs **your layouts, palettes, fonts, graphics, etc.** to becopme a real theme.)
