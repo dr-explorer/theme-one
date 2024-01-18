@@ -2,7 +2,7 @@
 
 ## WordPress starter theme for experienced designers/developers who are new to WordPress ##
 
-This is the starter theme I would have loved to come across when I was myself learning WordPress. It is the ideal starter for experienced developers who want to write their own CSS and PHP, and only need the WordPress basics to get going. It provides everything that is essential (including action hooks and the Loop), while excluding **everything** that isn't.
+This is the starter theme I would have loved to come across when I was myself learning WordPress. It is the ideal starter for experienced developers who want to write their own CSS and PHP, and only need the WordPress basics to get going. It provides everything that is essential (including action hooks and the Loop), while **excluding everything** that isn't.
 
 If you are:
 - a developer/designer,
