@@ -12,7 +12,7 @@ get_header();
 ?>
 	<main>
         <header class="entry-header">
-            <h2 class="entry-title">><?php echo "Search results for '" . get_search_query() . "'"; ?></h2>
+            <h2 class="entry-title"><?php echo "Search results for '" . get_search_query() . "'"; ?></h2>
         </header>
         <?php if ( have_posts() ) : 
             while ( have_posts() ) : the_post(); ?>
