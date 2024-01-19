@@ -12,7 +12,7 @@ If you are:
 
 this is for you.
 
-**Theme One** works as a theme, without any editing. (Obviously, it relies on browser defaults to be readable at all. It needs **your layouts, palettes, fonts, graphics, etc.** to becopme a real theme.)
+**Theme One** works as a theme, without any editing. (Obviously, it relies on browser defaults to be readable at all. It needs **your layouts, palettes, fonts, graphics, etc.** to become a real theme.)
 
 The only thing you will need to change is the name (and "text domain") of the theme, in *style.css*, and the copyright declaration in *footer.php*. Two minutes' work and it's your own, straightaway.
 
