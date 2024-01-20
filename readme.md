@@ -21,7 +21,7 @@ Just as it is, it provides a working *functions.php*, also a working *header.php
 Which should be your first job—maybe along with coding one or two new functions in *functions.php* (hints are provided). Then move on to one or more of the extra templates.
 
 ### Standard extra template files ###
-1. If your site will have more than one page: *page.php, front-page.php, home.php*
+1. If your site will have more than one page: *page.php, front-page.php / home.php* ('front-page' overrides 'home', even on a pure blog site)
 2. If you want to provide a search facility: *search.php* (for search results), *404.php* (can also be used for mistyping. etc.)
 3. If you want to provide a widget area: *sidebar.php* (misleading name)
 4. If your site will have a blog: *archive.php, comments.php, single.php*
