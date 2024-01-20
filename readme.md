@@ -5,8 +5,8 @@
 This is the starter theme I would have loved to come across when I was myself learning WordPress. It is the ideal starter for experienced developers who want to write their own CSS and PHP, and only need the WordPress basics to get going. It provides everything that is essential (including action hooks and the Loop), while **excluding** everything that isn't.
 
 If you are:
-- a developer/designer,
-- at home with both PHP and CSS, who
+- a designer/developer,
+- at home with CSS and familiar with PHP, who
 - dislikes Gutenberg and
 - does not want to have to adapt / cut out / edit another developer's code,
 
