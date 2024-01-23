@@ -19,7 +19,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 	<div id="page">
-		<header>
+		<header class="site-header">
             <?php if ( is_front_page()) { ?>
                 <h1><?php bloginfo( 'name' ); ?></h1>
             <?php }
