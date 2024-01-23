@@ -5,6 +5,12 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  * @link https://developer.wordpress.org/reference/functions/add_theme_support/
  *
+ * A theme might need to 'support' further features
+ * And/or register a sidebar/sidebars
+ * Enqueue Javascript files or additional style sheets
+ * Maybe limit content width, or change excerpt length
+ * Perhaps even disable the block editor and remove global CSS ...
+ *
  * @package Theme One
  * @since 1.0
  */
