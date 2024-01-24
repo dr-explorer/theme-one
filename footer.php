@@ -9,12 +9,19 @@
  * @package Theme One
  */
 ?>
-        <footer>
-            <p><!--some text can go here--></p>
+        <footer class="site-footer">
+            <?php
+            /*get_sidebar( "footer" );*/
+            $theme_data = wp_get_theme();
+            $theme_name = '&ldquo;' . $theme_data->get( 'Name' ) . '&rdquo;';
+            $text_domain = $theme_data->get( 'TextDomain' );
+            $author = $theme_data->get( 'Author' );
+            $author_url = $theme_data->get( 'AuthorURI' );
+            ?>
             <div id="copyright">
                 <p>
-                <?php printf( esc_html__( 'Powered by %s', 'theme-one' ), 'WordPress  |  ' );
-                printf( esc_html__( 'Theme: %1$s by %2$s', 'theme-one' ), '&ldquo;Theme One&rdquo;', '<a target="_blank" href="https://www.michael-scannell.com/web/designs2.html">Michael Scannell</a>' ); ?>
+                <?php printf( esc_html__( 'Powered by %s', $text_domain ), 'WordPress  |  ' );
+                printf( esc_html__( 'Theme: %1$s by %2$s', $text_domain ), $theme_name, '<a target="_blank" href="' . $author_url . '">' . $author . '</a>' ); ?>
                 </p>
             </div>
         </footer>
