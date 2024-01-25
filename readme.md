@@ -16,11 +16,11 @@ this is for you.
 
 **Theme One** works as a theme, without any editing. (Obviously, it relies on browser defaults to be readable at all. It needs **your layouts, palettes, fonts, graphics, etc.** to become a real theme.)
 
-The only thing you will need to change is the name, author, author URI and "text domain" of the theme, in *style.css. The copyright declaration in *footer.php* will automatically reflect your changes. Half a minute's work and it's your own.
+The only thing you will need to change is the name, author, author URI and "text domain" of the theme, in *style.css*. The copyright declaration in *footer.php* will automatically reflect your changes. Half a minute's work and it's your own.
 
 Just as it is, it provides a working *functions.php*, also a working *header.php*, *index.php*, and *footer.php*. The established HTML5 names are used for page divisions. **Many other starter templates** are provided in a subordinate folder, which you can work on once you are ready to promote them to the theme's main folder. The CSS file (required by WordPress) has a comment header, but not a single line of CSS—until you yourself write one.
 
-Which should be your first job—maybe along with adding one or two extras to *functions.php* (hints are provided). Then move on to one or more of the extra templates.
+Which should be your first job—maybe along with adding one or two extras to *functions.php* (suggestions are provided). Then move on to one or more of the extra templates.
 
 ### Standard extra template files ###
 1. If your site will have more than one page: *page.php, front-page.php, home.php* ('front-page' will override 'home', unless the site administrator knows what she/he is doing)
