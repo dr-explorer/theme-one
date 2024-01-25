@@ -1,3 +1,5 @@
+!['Theme One'](https://github.com/dr-explorer/theme-one/blob/main/theme-one.png)
+
 # Theme One #
 
 ## WordPress starter theme for experienced designers/developers who are new to WordPress ##
