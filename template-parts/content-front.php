@@ -7,8 +7,8 @@
                         the_post_thumbnail();
                     } ?></p>
 
-                <div class="entry-content">
+                <section class="entry-content">
                     <?php the_content(); ?>
-                </div>
+                </section>
             </article>
             

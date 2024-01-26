@@ -16,12 +16,12 @@ get_header();
         </header>
         <?php if ( have_posts() ) : 
             while ( have_posts() ) : the_post(); ?>
-            <section <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-                <div class="entry-content">
+            <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+                <section class="entry-content">
                     <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                     <p><?php the_excerpt( ); ?></p>
-                </div>
-            </section>
+                </section>
+            </article>
             <?php endwhile;
         else : ?>
             <p>No match found</p>

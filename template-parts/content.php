@@ -3,7 +3,7 @@
                     <h2 class="entry-title"><?php the_title(); ?></h2>
                 </header>
 
-                <div class="entry-content">
+                <section class="entry-content">
                     <?php the_content(); ?>
-                </div>
+                </section>
             </article>

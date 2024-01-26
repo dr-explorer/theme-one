@@ -18,8 +18,8 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-	<div id="page">
-		<header class="site-header">
+    <div id="page">
+        <header class="site-header">
             <?php if ( is_front_page()) { ?>
                 <h1><?php bloginfo( 'name' ); ?></h1>
             <?php }
@@ -30,4 +30,4 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'site-navigation' )); ?>
                 <?php get_search_form(); ?>
             </section>
-		</header>
+        </header>

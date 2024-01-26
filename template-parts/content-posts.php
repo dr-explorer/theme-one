@@ -5,8 +5,8 @@
 
                 <p class="subhead"><?php the_time('l, jS F Y') ?><br>By <?php the_author() ?></p>
 
-                <div class="entry-content">
+                <section class="entry-content">
                     <?php the_excerpt(); ?>
-                </div>
+                </section>
             </article>
             
