@@ -10,7 +10,7 @@
  * @since 1.0
  */
 ?>
-        <section class="">
+        <section class="comment-area">
             <ol>
                 <?php wp_list_comments(); ?>
             </ol>

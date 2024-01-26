@@ -12,7 +12,7 @@
  * @since 1.0
  */
 ?>
-        <aside class="sidebar" id="">
+        <aside class="sidebar" id="site-content">
             <h3>Latest Posts</h3>
             <ul>
                 <?php

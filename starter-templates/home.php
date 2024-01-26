@@ -26,8 +26,8 @@ get_header();
 	    <?php endif; ?>
 	    
 	    <p class="post-page-navigation">
-	        <?php previous_posts_link( "&laquo; More recent posts"); ?>
-	        <?php next_posts_link( "Previous posts &raquo;"); ?>
+	        <?php next_posts_link( "&laquo; Previous posts"); ?>
+	        <?php previous_posts_link( "More recent posts &raquo;"); ?>
 	    </p>
     </main>
     <?php get_footer(); ?>
