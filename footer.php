@@ -6,6 +6,8 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
+ * To satisfy WordPress translation requirements, you will need to substitute your literal text domain for the PHP variable $textdomain (and you can delete the assignment).
+ *
  * @package Theme One
  */
 ?>

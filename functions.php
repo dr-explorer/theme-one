@@ -25,7 +25,7 @@ if ( ! function_exists( 'theme1_setup' )) {
 
 if ( ! function_exists( 'theme1_navigation' )) {
     function theme1_navigation() {
-        register_nav_menu( 'site-navigation', __( 'Website Menu' )); /*'Website Menu' is a name; the theme will assign the name, via its slug (in this case, 'site-navigation'), to a particular page location in a template; the menu itself then needs to be constructed by the admin user and assigned to that location*/
+        register_nav_menu( 'site-navigation', 'Website Menu' ); /*'Website Menu' is a name; the theme will assign the name, via its slug (in this case, 'site-navigation'), to a particular page location in a template; the menu itself then needs to be constructed by the admin user and assigned to that location*/
     }
     add_action( 'init', 'theme1_navigation' );
 }
