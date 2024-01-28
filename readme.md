@@ -1,8 +1,8 @@
 !['Theme One'](https://github.com/dr-explorer/theme-one/blob/main/theme-one.png)
 
-## WordPress starter theme for experienced designers/developers who are new to WordPress ##
+## WordPress starter theme for designers/developers who are new to WordPress ##
 
-This is the starter theme I would have loved to come across when I was myself learning WordPress. It is the ideal starter for experienced developers who want to write their own CSS and PHP, and only need the WordPress basics to get going. It provides everything that is essential (including action hooks and the Loop), while **excluding** everything that isn't.
+This is the starter theme I would have loved to come across when I was myself learning WordPress. It is the ideal starter for developers who want to write their own CSS and PHP, and only need the WordPress basics to get going. It provides everything that is essential (including action hooks and the Loop), while **excluding** everything that isn't.
 
 If you are:
 - a designer/developer,
@@ -12,13 +12,19 @@ If you are:
 
 this is for you.
 
-**Theme One** works as a theme, without any editing. (Obviously, it relies on browser defaults to be readable at all. It needs **your layouts, palettes, fonts, graphics, etc.** to become a real theme.)
+### Setup ###
+1. Clone the repository or download the zip.
 
-The only thing you will need to change is the name, author, author URI and "text domain" of the theme, in *style.css*. The copyright declaration in *footer.php* will automatically reflect your changes. A minute's work and it's your own.
+2. In *style.css*, change the name, author, author URI and "text domain". The copyright declaration in *footer.php* will automatically reflect your changes. A minute's work and it's your own.
 
-Just as it is, it provides a working *functions.php*, also a working *header.php*, *index.php*, and *footer.php*. The established HTML5 names are used for page divisions. **Many other starter templates** are provided in a subordinate folder, which you can work on once you are ready to promote them to the theme's main folder. The CSS file (required by WordPress) has a comment header, but not a single line of CSS—until you yourself write one.
+### Make it 100% your own ###
+**Theme One** works as a theme, without any editing. To make it shine in your way, define your own layouts, palettes, fonts, graphics, etc., in *style.css*.
 
-Which should be your first job—maybe along with adding one or two extras to *functions.php* (suggestions are provided). Then move on to one or more of the extra templates.
+Just as it is, the theme provides a working *functions.php*, also a working *header.php*, *index.php*, and *footer.php*. The working CSS file, *style.css*, has a comment header, but not a single line of CSS—until you yourself write one.
+
+Start with *style.css*. Glance at *functions.php* and see if you want to add one of the suggested extras. Glory in the results.
+
+Then move on to the **extra template files supplied**, in the 'starter-templates' folder.
 
 ### Standard extra template files ###
 1. If your site will have more than one page: *page.php, front-page.php, home.php* ('front-page' will override 'home', unless the site administrator knows what they are doing)
@@ -30,4 +36,4 @@ Which should be your first job—maybe along with adding one or two extras to *f
 7. If your site will use categories and/or tags: *category.php, tag.php*
 8. If your site will use a custom taxonomy: *taxonomy.php*
 
-**Theme One** provides starter versions of *404.php, archive.php, comments.php, front-page.php, home.php, page.php, search.php, sidebar.php* and *single.php*. All of these templates work as they are, in their limited way, but your best bet is probably to promote them one by one, and integrate them into your theme, once you have established your theme's style and basic functions.
+**Theme One** provides starter versions of *404.php, archive.php, comments.php, front-page.php, home.php, page.php, search.php, sidebar.php* and *single.php*. All of these templates work as they are. Have fun promoting them one by one (tweaking the code if you happen to feel like it), and integrating them into your theme.
