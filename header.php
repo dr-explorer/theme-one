@@ -26,8 +26,8 @@
             else { ?>
                 <h1><a href="<?php echo esc_url( home_url( '/' )); ?>" title="<?php bloginfo('name'); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
             <?php } ?>
-            <section>
+            <nav>
                 <?php wp_nav_menu( array( 'theme_location' => 'site-navigation' )); ?>
                 <?php get_search_form(); ?>
-            </section>
+            </nav>
         </header>
