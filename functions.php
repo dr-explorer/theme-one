@@ -23,6 +23,13 @@ if ( ! function_exists( 'theme1_setup' )) {
     add_action( 'after_setup_theme', 'theme1_setup' );
 }
 
+if ( ! function_exists( 'theme1_enqueue_styles' )) {
+    function theme1_enqueue_styles() {
+        wp_enqueue_style( 'theme1_style', get_stylesheet_uri() );
+    }
+    add_action( 'wp_enqueue_scripts', 'theme1_enqueue_styles' );
+}
+
 if ( ! function_exists( 'theme1_navigation' )) {
     function theme1_navigation() {
         register_nav_menu( 'site-navigation', 'Website Menu' ); /*'Website Menu' is a name; the theme will assign the name, via its slug (in this case, 'site-navigation'), to a particular page location in a template; the menu itself then needs to be constructed by the admin user and assigned to that location*/
