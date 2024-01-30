@@ -11,6 +11,8 @@
 get_header();
 ?>
 	<main>
-        <?php get_template_part( 'template-parts/content', '404' ); ?>
+        <div class="main-content">
+            <?php get_template_part( 'template-parts/content', '404' ); ?>
+        </div>
     </main>
 <?php get_footer(); ?>
