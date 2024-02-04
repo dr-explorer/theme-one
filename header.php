@@ -5,6 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package Theme One
+ * @since 1.0
  */
 ?>
 <!doctype html>
@@ -28,6 +29,6 @@
             <?php } ?>
             <nav id="site-menu">
                 <?php wp_nav_menu( array( 'theme_location' => 'site-navigation' )); ?>
-                <?php get_search_form(); ?>
+                <!--<?php get_search_form(); ?>-->
             </nav>
         </header>
