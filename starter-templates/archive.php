@@ -13,7 +13,7 @@ get_header();
 	<main>
         <div class="main-content">
             <header class="entry-header">
-                <h1 class="page-title">
+                <h2 class="subhead">
                 <?php if (is_day()) {
                     echo "Posts posted on ", get_the_date( 'jS F Y' );
                 } else if (is_month()) {
@@ -22,7 +22,7 @@ get_header();
                     $categories = get_the_category();
                     echo "Posts in the &lsquo;", $categories[0]->name, "&rsquo; category";
                 } ?>
-                </h1>
+                </h2>
             </header>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'template-parts/content', 'archive' ); ?>
