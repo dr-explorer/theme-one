@@ -7,7 +7,7 @@ This is the starter theme I would have loved to come across when I was myself le
 If you are:
 - a designer/developer,
 - at home with CSS and familiar with PHP, who
-- dislikes Gutenberg and
+- still believes "code is poetry" and
 - does not want to have to adapt / cut out / edit another developer's code,
 
 this is for you.
