@@ -11,7 +11,7 @@
 get_header();
 ?>
 	<main>
-        <div class="front-content">
+        <div class="front content">
             <!--<?php get_sidebar(); ?>-->
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'template-parts/content', 'front' ); ?>

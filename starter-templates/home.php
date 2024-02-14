@@ -11,7 +11,7 @@
 get_header();
 ?>
 	<main>
-	    <div class="post-page-content">
+	    <div class="post-page content">
             <h2>Latest posts</h2>
 	                <?php if ( have_posts() ) : ?>
 	                <?php while ( have_posts() ) : the_post(); ?>

@@ -18,7 +18,13 @@
 if ( ! function_exists( 'theme1_setup' )) {
     function theme1_setup() {
         load_theme_textdomain( 'theme-one', get_template_directory() . '/languages' );
-        
+
+	   /*
+		* Let WordPress manage the page titles.
+		* By adding theme support, we declare that this theme does not use a
+		* hard-coded <title> tag in the document head, and expect WordPress to
+		* provide it for us.
+		*/
         add_theme_support( 'title-tag' );
         /*add_theme_support( 'html5', array() );*/
         add_theme_support( 'post-thumbnails' );
