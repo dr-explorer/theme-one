@@ -5,13 +5,18 @@
 
                 <p class="subhead"><?php the_time('l, jS F Y') ?><br>By <?php the_author() ?></p>
 
-                <p><?php if ( has_post_thumbnail() ) {
+                <p class="container"><?php if ( has_post_thumbnail() ) {
                         the_post_thumbnail();
                     } ?></p>
 
                 <section class="entry-content">
                     <?php the_content(); ?>
                     <?php comments_template(); ?>
+                    <?php the_post_navigation( array(
+                        'prev_text'  => __( '&laquo; (Older): &lsquo;%title&rsquo;' ),
+                        'next_text'  => __( '(Newer): &lsquo;%title&rsquo; &raquo;' ),
+                      ) );
+                    ?>
                 </section>
             </article>
             
