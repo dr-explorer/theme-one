@@ -3,6 +3,7 @@
  * The template file for a failed search or a mistyped URL
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://developer.wordpress.org/themes/functionality/404-pages/
  *
  * @package Theme One
  * @since 1.0

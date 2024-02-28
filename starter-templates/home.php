@@ -3,6 +3,7 @@
  * The template file for a blog-based home page
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://developer.wordpress.org/themes/template-files-section/post-template-files/
  *
  * @package Theme One
  * @since 1.0
@@ -12,7 +13,7 @@ get_header();
 ?>
 	<main>
 	    <div class="post-page content">
-            <h2>Latest posts</h2>
+            <h2 class="page-title">Latest posts</h2>
 	                <?php if ( have_posts() ) : ?>
 	                <?php while ( have_posts() ) : the_post(); ?>
 	                    <?php get_template_part( 'template-parts/content', 'posts' ); ?>
