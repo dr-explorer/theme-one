@@ -1,11 +1,11 @@
-            <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+            <section <?php post_class(); ?> id="post-<?php the_ID(); ?>">
                 <header class="entry-header">
-                    <h2 class="entry-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                    <h3 class="entry-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                 </header>
 
-                <section class="entry-content">
+                <div class="entry-content">
                     <?php the_excerpt(); ?>
                     <p><?php the_tags(); ?></p>
-                </section>
-            </article>
+                </div>
+            </section>
             
