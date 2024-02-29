@@ -12,7 +12,7 @@
 get_header();
 ?>
 	<main>
-        <div class="main-content">
+        <div class="main content">
             <?php get_template_part( 'template-parts/content', '404' ); ?>
         </div>
     </main>
