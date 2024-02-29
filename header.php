@@ -27,6 +27,9 @@
             else { ?>
                 <h1><a href="<?php echo esc_url( home_url( '/' )); ?>" title="<?php bloginfo('name'); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
             <?php } ?>
+            <div id="site-options">
+                <img id="menu-holder" src="<?php echo get_stylesheet_directory_uri() . '/media/trigram.png'; ?>" alt="MENU">
+            </div>
             <nav id="site-menu">
                 <?php wp_nav_menu( array( 'theme_location' => 'site-navigation' )); ?>
                 <!--<?php get_search_form(); ?>-->
